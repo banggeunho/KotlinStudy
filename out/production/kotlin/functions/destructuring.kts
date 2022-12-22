@@ -15,9 +15,9 @@ val result = getFullName()
 //println("$first $last")
 
 // 값을 받ㄱ ㅣ 싫으면 언더스코어를 싸용하면된다.
-val (_, _, last) = getFullName()
+val ( _, _, last ) = getFullName()
 println(last)
 
 // 이후 부터 값을 받기 싫으면, 그냥 안 적으면 된다.
-val(_,middle) = getFullName()
+val( _, middle ) = getFullName()
 println(middle)
